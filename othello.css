@@ -1,0 +1,79 @@
+body{
+	text-align: center;
+	background-color: #ff1900;
+	background-image: url(images/orange_dither.png);
+	background-repeat: repeat-x;
+}
+
+#logo{
+	width: 200px;
+}
+
+#controls_table{
+	width: 100%;
+	background-color: #8d8d8d;
+	border: 1px solid #000000;
+	padding: 10px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    background-image: url(images/black_grey_dither.png);
+    background-repeat: repeat-x;
+}
+
+#board
+{                  
+    border: 1px solid #000000;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+#board td 
+{ 
+	text-align: center;
+}
+
+#messages{
+	margin: auto;
+	border: 2px groove #999999;
+	height: 20px;
+	color: black;
+	vertical-align: middle;
+	padding: 5px;
+	font-weight: bold;
+	width: 200px;
+}
+                      
+.board_cell
+{                            
+	background-color: #067404;
+	border: 1px solid #ffffff;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	background-image: url(images/game_piece.png);
+}
+
+#skip_button{
+	padding: 10px;
+	margin: auto;
+	margin-top: 10px;
+	border: 1px solid;
+	background-color: #dddddd;
+	width: 200px;
+    cursor: pointer;
+}
+
+.score_label{
+	font-weight: bold;
+	font-size: 10pt;
+	text-align: right;
+	color: black;
+}
+
+
+.score_value{
+	color: yellow;
+	font-weight: bold;
+	padding-left: 10px;
+}
