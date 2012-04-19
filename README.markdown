@@ -8,4 +8,4 @@
 The only changes I've made recently were to reorganize the file structure and make sure the main game worked. 
 
 ##License
-Do as you with with it if you find it useful.   
+Do as you wish with with it if you find it useful.   
